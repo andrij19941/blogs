@@ -1,0 +1,40 @@
+// CONVERTING PX TO REM
+@function rem($size, $default-size: $default-font-size)
+	@return ($size / $default-size) + rem
+
+// Dark / Light mode
+=dark
+	body.dark
+		@content
+
+// Responsive breakpoints
+=r($width)
+	@media only screen and (max-width: $width+ "px")
+		@content
+
+=rmin($width)
+	@media only screen and (min-width: $width+ "px")
+		@content
+
+=xxl
+	+r(1400)
+		@content
+
+=xl
+	+r(1200)
+		@content
+
+=lg
+	+r(992)
+		@content
+
+=md
+	+r(790)
+		@content
+=md-650
+	+r(650)
+		@content
+
+=sm
+	+r(576)
+		@content

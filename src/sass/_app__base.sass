@@ -1,0 +1,60 @@
+\:root
+	--base-fz: 16px
+	--base-fw: 400
+	--base-lh: 1.6
+	--base-tc: #6C757D
+	--base-font: 'Poppins', sans-serif
+	--base-pl: $default-placeholder-color
+
+	--color-link: #495057
+	--color-link-rgb: 73, 80, 87
+
+	--color-main: #DDBEA9
+	--color-black: #000
+	--color-white: #fff
+	--color-gray: #6c757d
+
+*, ::before, ::after
+	box-sizing: border-box
+
+body
+	color: var(--base-tc)
+	font-size: var(--base-fz)
+	font-family: var(--base-font)
+	font-weight: var(--base-fw)
+	line-height: var(--base-lh)
+
+svg
+	--sz: 1em
+	position: relative
+	width: var(--sz)
+	height: var(--sz)
+
+a,
+button,
+.pointer,
+.btn,
+	cursor: pointer
+	text-decoration: none
+
+a,
+a:focus,
+a:focus-within,
+a:active,
+a:hover,
+button,
+button:focus,
+button:focus-within,
+.btn,
+.btn:hover,
+.btn:focus,
+.btn:active
+	outline: none !important
+	border: none
+
+a
+	color: $pr
+	&:active
+		color: $pr
+	&:hover
+		color: $pr-h
