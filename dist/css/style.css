@@ -58,6 +58,9 @@ a {
   a:hover {
     color: #0097f5; }
 
+li {
+  list-style-type: none; }
+
 /**
  * Посторінкова навігація
  */
@@ -150,3 +153,106 @@ a {
     color: var(--color-main); }
   .nav .nav__btn-sing:hover {
     color: var(--color-main); }
+
+.slider {
+  margin: 39px 100px; }
+  .slider .slider__img {
+    width: 100%;
+    height: 400px;
+    overflow: hidden; }
+  .slider .slide {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top; }
+
+.sector .sector__list {
+  padding: 0; }
+
+.sector li::before {
+  content: "+";
+  margin: 10px; }
+
+.sector ::-moz-placeholder {
+  padding: 30px;
+  cursor: pointer; }
+
+.sector ::placeholder {
+  padding: 30px;
+  cursor: pointer; }
+
+.sector .sector__title {
+  position: relative; }
+
+.sector .search-img {
+  position: absolute;
+  padding: 7px;
+  width: 32px; }
+
+.sector .card {
+  gap: 31px;
+  flex-direction: row; }
+
+.sector .card-img {
+  width: 287px; }
+
+.sector .sector__like {
+  justify-content: space-between; }
+
+.sector h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+  color: #212529; }
+
+.sector .date {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px; }
+
+.sector h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #212529; }
+
+.sector .text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  color: #6C757D; }
+
+.sector .sector__card-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  color: #6C757D;
+  border-bottom: solid 1px #6C757D;
+  margin: 15px 0; }
+
+.sector .sector__like {
+  position: relative; }
+
+.sector .like-img {
+  position: absolute;
+  right: 22px;
+  bottom: 18px; }
+
+.sector .like {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  color: #6C757D;
+  margin: 1px 0; }
