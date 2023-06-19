@@ -166,6 +166,25 @@ li {
     display: inline-block;
     vertical-align: top; }
 
+.carousel .carousel-author {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #E5E5E5; }
+
+.carousel .carousel-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  color: #F8F9FA;
+  margin-bottom: 127px; }
+
 .sector .sector__list {
   padding: 0; }
 
@@ -189,9 +208,13 @@ li {
   padding: 7px;
   width: 32px; }
 
+.sector .search {
+  border: none; }
+
 .sector .card {
   gap: 31px;
-  flex-direction: row; }
+  flex-direction: row;
+  margin-bottom: 40px; }
 
 .sector .card-img {
   width: 287px; }
