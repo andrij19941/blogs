@@ -21,14 +21,16 @@ body {
   font-size: var(--base-fz);
   font-family: var(--base-font);
   font-weight: var(--base-fw);
-  line-height: var(--base-lh);
-  width: 1440px; }
+  line-height: var(--base-lh); }
 
 svg {
   --sz: 1em;
   position: relative;
   width: var(--sz);
   height: var(--sz); }
+
+h1 h2 {
+  font-family: var(--base-font); }
 
 a,
 button,
@@ -198,8 +200,7 @@ li {
     vertical-align: top; }
 
 .carousel .carousel-author {
-  font-family: 'Poppins';
-  font-style: normal;
+  font-family: var(--base-font);
   font-weight: 300;
   font-size: 12px;
   line-height: 20px;
@@ -207,8 +208,7 @@ li {
   color: #E5E5E5; }
 
 .carousel .carousel-text {
-  font-family: 'Poppins';
-  font-style: normal;
+  font-family: var(--base-font);
   font-weight: 700;
   font-size: 25px;
   line-height: 40px;
@@ -254,39 +254,34 @@ li {
   justify-content: space-between; }
 
 .sector h1 {
-  font-family: 'Poppins';
-  font-style: normal;
+  font-family: var(--base-font);
   font-weight: 700;
   font-size: 25px;
   line-height: 40px;
   color: #212529; }
 
 .sector .date {
-  font-family: 'Poppins';
-  font-style: normal;
+  font-family: var(--base-font);
   font-weight: 300;
   font-size: 12px;
   line-height: 20px; }
 
 .sector h2 {
-  font-family: 'Poppins';
-  font-style: normal;
+  font-family: var(--base-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 25px;
   color: #212529; }
 
 .sector .text {
-  font-family: 'Poppins';
-  font-style: normal;
+  font-family: var(--base-font);
   font-weight: 300;
   font-size: 12px;
   line-height: 20px;
   color: #6C757D; }
 
 .sector .sector__card-text {
-  font-family: 'Poppins';
-  font-style: normal;
+  font-family: var(--base-font);
   font-weight: 300;
   font-size: 12px;
   line-height: 20px;
@@ -303,7 +298,7 @@ li {
   bottom: 18px; }
 
 .sector .like {
-  font-family: 'Poppins';
+  font-family: var(--base-font);
   font-weight: 300;
   font-size: 12px;
   line-height: 20px;
