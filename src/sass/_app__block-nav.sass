@@ -1,34 +1,40 @@
-.nav
-    margin: 28px 99px
-    & &__title
+.main-menu
+    .title
         color: var(--color-link)
         font-size: 18px
         font-family: var(--base-font)
         font-weight: 700
         line-height: 25px
-    & &__menu
+    .menu-nav
+        gap: 9px
+        min-width: 207px
+        font-size: 12px
+        line-height: 25px
+        font-weight: 500
+    .btn-nav
         gap: 25px
         font-weight: var(--base-fw)
-    & &__btn
-        gap: 25px
-        font-weight: var(--base-fw)
-    & &__menu-link
+    .menu-link
         color: var(--color-link)
     .fat
         color: var(--color-black)
         border-bottom: solid var(--color-main)
-    & &__btn-tarted
+    .btn-nav__started
         background-color: var(--color-main)
         color: var(--color-white)
         border-radius: 20px
-    .btn-sing
+    .btn-nav__sing
         color: var(--base-font)
+        font-size: 13px
     span
         color: var(--color-main)
-    & &__btn-tarted:hover
-        background-color: #d47e7e
-        color: var(--color-white)
-    & &__menu-link:hover
+    .btn-nav__started
+        font-size: 13px
+        padding: 10px 13px
+        &:hover
+            background-color: #d47e7e
+            color: var(--color-white)
+    .menu-link:hover
         color: var(--color-main)
-    & &__btn-sing:hover
+    .btn-nav__sing:hover
         color: var(--color-main)

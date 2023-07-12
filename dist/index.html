@@ -57,165 +57,271 @@
 		</svg>
 	</div>
 
-<div class="nav">
-    <div class="container d-flex justify-content-between">
-        <div class="nav__title">
-            <p class="nav__title-item">VENCE<span>.</span></p>
-        </div>
-        <div class="nav__menu d-flex">
-            <a href="#" class="nav__menu-link fat">Resources</a>
-            <a href="#" class="nav__menu-link">Inspiration</a>
-            <a href="#" class="nav__menu-link">Courses</a>
-            <a href="#" class="nav__menu-link">Blog</a>
-        </div>
-        <div class="nav__btn d-flex">
-            <a href="#" class="nav__btn-sing btn ">Sign in</a>
-            <a href="#" class="nav__btn-tarted btn">Get Started</a>
-        </div>
-    </div>
-</div>
-<div id="carouselExampleCaptions" class="carousel slide slider">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-            class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active ">
-            <img src="img/header-img.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <p class="carousel-author">Tomas Edwardo</p>
-                <h5 class="carousel-text">Instagram artists with great <br>
-                    photography skills</h5>
-            </div>
-        </div>
+<nav class="navbar navbar-expand-md main-menu">
+    <div class="container">
+        <a href="index.html" class="navbar-brand d-md-none ">
+            <img src="img/logo.png" alt="" class="navbar-brand-img title">
+        </a>
 
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
+        <a href="#main-menu-collapse" class="menu-call-mobile d-md-none"
+            data-bs-toggle="collapse">Menu</a>
 
-<div class="sector">
-    <div class="container d-flex p-0">
-        <div class="sector__title">
-            <h1>Choose what you’d like to learn from hundreds of topics:</h1>
-            <ul class="sector__list">
-                <li class="sector__list-text">Career & Success</li>
-                <li class="sector__list-text">Personal Development</li>
-                <li class="sector__list-text">Communication Skills</li>
-                <li class="sector__list-text">Leadership & Management</li>
-                <li class="sector__list-text">Relationships</li>
-                <li class="sector__list-text">Self-Care & Mindfulness</li>
+        <div class="collapse navbar-collapse justify-content-between" id="main-menu-collapse">
+            <a href="index.html" class="navbar-brand d-none d-md-block">
+                <img src="img/logo.png" alt="" class="navbar-brand-img">
+            </a>
+
+            <ul class="navbar-nav menu-nav">
+                <li class="nav-item">
+                    <a class="nav-link button-hover " aria-current="page" href="#">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link button-hover" href="#">Inspiration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link button-hover" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link button-hover" href="#">Blog</a>
+                </li>
             </ul>
-            <img src="img/search.png" alt="" class="search-img">
-            <input type="text" placeholder="Search Topic" class="search">
+
+            <div class="box-buttons btn-nav">
+                <a href="#" class="btn btn-link btn-nav__sing">Sign in</a>
+                <a href="#" class="btn btn-warning rounded-pill btn-nav__started">Get Started</a>
+            </div>
+
         </div>
-        <div class="sector__card">
-            <div class="card d-flex">
-                <div>
-                    <img src="img/cards/card1.jpg" alt="" class="card-img">
-                </div>
-                <div class="card__text">
-                    <p class="date">29.Jun.2021</p>
-                    <h2>Richard Norton photorealistic rendering as real photos</h2>
-                    <p class="sector__card-text">Many years ago, I worked for my parents who own a
-                        video production company.
-                    </p>
-                    <div class="sector__like d-flex">
-                        <p class="text">By: Peter Rowardson</p>
-                        <img src="img/like.png" alt="" class="like-img">
-                        <span class="like">175</span>
+    </div>
+</nav>
+<div class="slider-holder">
+    <div class="container">
+        <div id="carousel-main" class="carousel slide slider">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-main" data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-main" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-main" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <img src="img/header-img.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="carousel-author">Tomas Edwardo</p>
+                        <h5 class="carousel-text">Instagram artists with great <br>photography
+                            skills</h5>
                     </div>
                 </div>
-            </div>
-            <div class="card d-flex">
-                <div>
-                    <img src="img/cards/card2.jpg" alt="" class="card-img">
-                </div>
-                <div class="card__text">
-                    <p class="date">29.Jun.2021</p>
-                    <h2>Richard Norton photorealistic rendering as real photos</h2>
-                    <p class="sector__card-text">Many years ago, I worked for my parents who own a
-                        video production company.
-                    </p>
-                    <div class="sector__like d-flex">
-                        <p class="text">By: Peter Rowardson</p>
-                        <img src="img/like.png" alt="" class="like-img">
-                        <span class="like">175</span>
+                <div class="carousel-item">
+                    <img src="img/header-img.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="carousel-author">Tomas Edwardo 2</p>
+                        <h5 class="carousel-text">Instagram artists with great <br>photography
+                            skills</h5>
                     </div>
                 </div>
-            </div>
-            <div class="card d-flex">
-                <div>
-                    <img src="img/cards/card3.jpg" alt="" class="card-img">
-                </div>
-                <div class="card__text">
-                    <p class="date">29.Jun.2021</p>
-                    <h2>Richard Norton photorealistic rendering as real photos</h2>
-                    <p class="sector__card-text">Many years ago, I worked for my parents who own a
-                        video production company.
-                    </p>
-                    <div class="sector__like d-flex">
-                        <p class="text">By: Peter Rowardson</p>
-                        <img src="img/like.png" alt="" class="like-img">
-                        <span class="like">175</span>
+                <div class="carousel-item">
+                    <img src="img/header-img.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="carousel-author">Tomas Edwardo 3</p>
+                        <h5 class="carousel-text">Instagram artists with great <br>photography
+                            skills</h5>
                     </div>
                 </div>
+
             </div>
-            <div class="card d-flex">
-                <div>
-                    <img src="img/cards/card4.jpg" alt="" class="card-img">
-                </div>
-                <div class="card__text">
-                    <p class="date">29.Jun.2021</p>
-                    <h2>Richard Norton photorealistic rendering as real photos</h2>
-                    <p class="sector__card-text">Many years ago, I worked for my parents who own a
-                        video production company.
-                    </p>
-                    <div class="sector__like d-flex">
-                        <p class="text">By: Peter Rowardson</p>
-                        <img src="img/like.png" alt="" class="like-img">
-                        <span class="like">175</span>
-                    </div>
-                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-main"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-main"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="blog-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 offset-lg-1 col-md-3">
+                <div class="sector-category">
+    <h2 class="sector-category__title h2">
+        Choose what you’d like to learn from hundreds of topics:
+    </h2>
+    <ul class="nav flex-column sector-category__list">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Career & Success</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Personal Development</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Communication Skills</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Leadership & Management</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Relationships</a>
+        </li>
+    </ul>
+    <div class="input-group mb-3 border-0">
+        <span class="input-group-text border-0 ps-0 bg-transparent" id="basic-addon1">
+            <img src="img/search.png" alt="" class="icon">
+        </span>
+        <input type="text" class="form-control border-0 ps-0" placeholder="Username">
+    </div>
+</div>
             </div>
-            <div class="card d-flex">
-                <div>
-                    <img src="img/cards/card5.jpg" alt="" class="card-img">
-                </div>
-                <div class="card__text">
-                    <p class="date">29.Jun.2021</p>
-                    <h2>Richard Norton photorealistic rendering as real photos</h2>
-                    <p class="sector__card-text">Many years ago, I worked for my parents who own a
-                        video production company.
-                    </p>
-                    <div class="sector__like d-flex">
-                        <p class="text">By: Peter Rowardson</p>
-                        <img src="img/like.png" alt="" class="like-img">
-                        <span class="like">175</span>
-                    </div>
-                </div>
+            <div class="col-lg-7 col-md-9">
+                <!--
+    Для картинки завжди виділяти div
+    Для тексту завжди також виділяти div
+ -->
+<div class="card card-blog">
+
+
+    <div class="card__img-holder pos-relative">
+        <a href="#" class="card__img-link">
+            <img src="img/cards/card1.jpg" alt="" class="card-img-top card__img">
+        </a>
+    </div>
+
+
+    <div class="card__text-holder">
+
+        <div class="card__meta-holder card__meta-holder--top">
+            <div class="card__meta meta-date">29.Jun.2021</div>
+        </div>
+
+        <a href="" class="card__title">
+            Richard Norton photorealistic rendering as real photos
+        </a>
+        <p class="card__text">
+            Many years ago, I worked for my parents who own a video
+            production company.
+        </p>
+
+        <div class="card__meta-holder card__meta-holder--bottom">
+            <div class="card__meta meta-author">
+                By: Peter Rowardson
             </div>
-            <div class="pages d-flex">
-                <p class="page__nam page__number">01</p>
-                <p class="page__nam">02</p>
-                <p class="page__nam">Next Page</p>
+            <div class="card__meta meta-likes">
+                <img src="img/like.png" alt="" class="like-img">
+                175px
             </div>
         </div>
     </div>
 </div>
-<div class="footer">
+
+
+
+<!-- <div class="card">
+    <div class="container d-flex align-items-start">
+        <img src="img/cards/card1.jpg" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-wrap">
+            <p class="card-date date">29.Jun.2021</p>
+            <h5 class="card-title title">Richard Norton photorealistic rendering as real photos</h5>
+            <p class="card-text text">Many years ago, I worked for my parents who own a video
+                production
+                company.
+            </p>
+            <div class="card-like d-flex justify-content-between">
+                <p class="author date">By: Peter Rowardson</p>
+                <div class="like-box d-flex align-items-center">
+                    <img src="img/like.png" alt="" class="like-img">
+                    <p class="like">175</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!-- 
+    <div class="container d-flex align-items-start">
+        <img src="img/cards/card2.jpg" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-wrap">
+            <p class="card-date date">29.Jun.2021</p>
+            <h5 class="card-title title">Richard Norton photorealistic rendering as real photos</h5>
+            <p class="card-text text">Many years ago, I worked for my parents who own a video
+                production
+                company.
+            </p>
+            <div class="card-like d-flex justify-content-between">
+                <p class="author date">By: Peter Rowardson</p>
+                <p class="like">
+                    <img src="img/like.png" alt="" class="like-img">
+                    175
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container d-flex align-items-start">
+        <img src="img/cards/card3.jpg" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-wrap">
+            <p class="card-date date">29.Jun.2021</p>
+            <h5 class="card-title title">Richard Norton photorealistic rendering as real photos</h5>
+            <p class="card-text text">Many years ago, I worked for my parents who own a video
+                production
+                company.
+            </p>
+            <div class="card-like d-flex justify-content-between">
+                <p class="author date">By: Peter Rowardson</p>
+                <img src="img/like.png" alt="" class="like-img">
+                <p class="like">175</p>
+            </div>
+        </div>
+    </div>
+    <div class="container d-flex align-items-start">
+        <img src="img/cards/card4.jpg" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-wrap">
+            <p class="card-date date">29.Jun.2021</p>
+            <h5 class="card-title title">Richard Norton photorealistic rendering as real photos</h5>
+            <p class="card-text text">Many years ago, I worked for my parents who own a video
+                production
+                company.
+            </p>
+            <div class="card-like d-flex justify-content-between">
+                <p class="author date">By: Peter Rowardson</p>
+                <img src="img/like.png" alt="" class="like-img">
+                <p class="like">175</p>
+            </div>
+        </div>
+    </div>
+    <div class="container d-flex align-items-start">
+        <img src="img/cards/card5.jpg" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-wrap">
+            <p class="card-date date">29.Jun.2021</p>
+            <h5 class="card-title title">Richard Norton photorealistic rendering as real photos</h5>
+            <p class="card-text text">Many years ago, I worked for my parents who own a video
+                production
+                company.
+            </p>
+            <div class="card-like d-flex justify-content-between">
+                <p class="author date">By: Peter Rowardson</p>
+                <img src="img/like.png" alt="" class="like-img">
+                <p class="like">175</p>
+            </div>
+        </div>
+    </div>
+    <div class="pages d-flex">
+        <p class="page__nam  button-hover">01</p>
+        <p class="page__nam button-hover">02</p>
+        <p class="page__nam">Next Page</p>
+    </div>
+</div> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
     <div class="conainer">
         <div class="footer__title d-flex justify-content-between">
             <p class="footer__title-text">VENCE Studio<span>.</span></p>
@@ -230,8 +336,7 @@
             <p class="footer__text-name">Developer: Andrii Dukas</p>
         </div>
     </div>
-</div>
-
+</footer>
 <script src="libs/jquery/jquery-3.6.0.min.js"></script>
 <script src="libs/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="js/scripts.min.js?v=1"></script>

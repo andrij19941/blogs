@@ -57,30 +57,50 @@
 		</svg>
 	</div>
 
-<div class="nav">
-    <div class="container d-flex justify-content-between">
-        <div class="nav__title">
-            <p class="nav__title-item">VENCE<span>.</span></p>
-        </div>
-        <div class="nav__menu d-flex">
-            <a href="#" class="nav__menu-link fat">Resources</a>
-            <a href="#" class="nav__menu-link">Inspiration</a>
-            <a href="#" class="nav__menu-link">Courses</a>
-            <a href="#" class="nav__menu-link">Blog</a>
-        </div>
-        <div class="nav__btn d-flex">
-            <a href="#" class="nav__btn-sing btn ">Sign in</a>
-            <a href="#" class="nav__btn-tarted btn">Get Started</a>
+<nav class="navbar navbar-expand-md main-menu">
+    <div class="container">
+        <a href="index.html" class="navbar-brand d-md-none ">
+            <img src="img/logo.png" alt="" class="navbar-brand-img title">
+        </a>
+
+        <a href="#main-menu-collapse" class="menu-call-mobile d-md-none"
+            data-bs-toggle="collapse">Menu</a>
+
+        <div class="collapse navbar-collapse justify-content-between" id="main-menu-collapse">
+            <a href="index.html" class="navbar-brand d-none d-md-block">
+                <img src="img/logo.png" alt="" class="navbar-brand-img">
+            </a>
+
+            <ul class="navbar-nav menu-nav">
+                <li class="nav-item">
+                    <a class="nav-link button-hover " aria-current="page" href="#">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link button-hover" href="#">Inspiration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link button-hover" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link button-hover" href="#">Blog</a>
+                </li>
+            </ul>
+
+            <div class="box-buttons btn-nav">
+                <a href="#" class="btn btn-link btn-nav__sing">Sign in</a>
+                <a href="#" class="btn btn-warning rounded-pill btn-nav__started">Get Started</a>
+            </div>
+
         </div>
     </div>
-</div>
+</nav>
 
 
 
 
 
 
-<div class="footer">
+<footer class="footer">
     <div class="conainer">
         <div class="footer__title d-flex justify-content-between">
             <p class="footer__title-text">VENCE Studio<span>.</span></p>
@@ -95,7 +115,7 @@
             <p class="footer__text-name">Developer: Andrii Dukas</p>
         </div>
     </div>
-</div>
+</footer>
 
 <script src="libs/jquery/jquery-3.6.0.min.js"></script>
 <script src="libs/bootstrap/bootstrap.bundle.min.js"></script>

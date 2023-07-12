@@ -1,4 +1,14 @@
 /**
  * Посторінкова навігація
  */
-.pagination
+.sector-category
+    & &__list
+        .nav-item
+        .nav-link
+            position: relative
+            padding-left: 18px
+            &::before
+                content: '+'
+                position: absolute
+                left: -1px
+                top: 8px
