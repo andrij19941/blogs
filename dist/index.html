@@ -59,7 +59,7 @@
 <nav class="navbar navbar-expand-md main-menu">
     <div class="container">
         <a href="index.html" class="navbar-brand d-md-none ">
-            <img src="img/logo.png" alt="" class="navbar-brand-img title">
+            <img data-src="img/logo.png" alt="" class="navbar-brand-img title lazy">
         </a>
 
         <a href="#main-menu-collapse" class="menu-call-mobile d-md-none"
@@ -67,7 +67,7 @@
 
         <div class="collapse navbar-collapse justify-content-between" id="main-menu-collapse">
             <a href="index.html" class="navbar-brand d-none d-md-block">
-                <img src="img/logo.png" alt="" class="navbar-brand-img">
+                <img data-src="img/logo.png" alt="" class="navbar-brand-img lazy">
             </a>
 
             <ul class="navbar-nav menu-nav">
@@ -172,7 +172,7 @@
     </ul>
     <div class="input-group mb-3 border-0">
         <span class="input-group-text border-0 ps-0 bg-transparent" id="basic-addon1">
-            <img src="img/search.png" alt="" class="icon">
+            <img data-src="img/search.png" alt="" class="icon lazy">
         </span>
         <input type="text" class="form-control border-0 ps-0" placeholder="Username">
     </div>
@@ -188,7 +188,7 @@
 
     <div class="card__img-holder pos-relative">
         <a href="#" class="card__img-link">
-            <img src="img/cards/card1.jpg" alt="" class="card-img-top card__img">
+            <img data-src="img/cards/card1.webp" alt="" class="card-img-top card__img lazy">
         </a>
     </div>
 
@@ -212,7 +212,7 @@
                 By: Peter Rowardson
             </div>
             <div class="card__meta meta-likes">
-                <img src="img/like.png" alt="" class="like-img">
+                <img data-src="img/like.png" alt="" class="like-img lazy">
                 175px
             </div>
         </div>
@@ -336,6 +336,7 @@
         </div>
     </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
 <script src="libs/jquery/jquery-3.6.0.min.js"></script>
 <script src="libs/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="js/scripts.min.js?v=1"></script>
