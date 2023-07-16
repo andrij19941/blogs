@@ -160,6 +160,14 @@ li {
   color: #F8F9FA;
   margin-bottom: 127px; }
 
+.pages {
+  margin: 60px 0 34px 0px;
+  gap: 15px; }
+  .pages .page__nam {
+    color: rgba(73, 80, 87, 0.5); }
+  .pages .page__nam:hover {
+    color: #000; }
+
 .card {
   flex-direction: row;
   gap: 30px;
