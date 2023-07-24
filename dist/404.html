@@ -43,7 +43,7 @@
 	<meta name="facebook-domain-verification" content="febacrb8ue6ic1x1083v6kghw32fsv" />
 </head>
 
-<body id="home" class="">
+<body id="home" class="@@bodyClass">
 	<div hidden="hidden" style="display: none">
 		<svg xmlns="http://www.w3.org/2000/svg">
 			<symbol id="icon-phone-call" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -56,10 +56,12 @@
 		</svg>
 	</div>
 
-<nav class="navbar navbar-expand-md main-menu">
+<nav class="navbar navbar-expand-md main-menu @@navClass">
     <div class="container">
         <a href="index.html" class="navbar-brand d-md-none ">
-            <img data-src="img/logo.webp" alt="" class="navbar-brand-img title lazy">
+            <img data-src="img/logo.webp" alt="" class="navbar-brand-img title lazy logo-black">
+            <img data-src="img/logo-white.png" alt=""
+                class="navbar-brand-img title lazy logo-white">
         </a>
 
         <a href="#main-menu-collapse" class="menu-call-mobile d-md-none"
@@ -67,7 +69,9 @@
 
         <div class="collapse navbar-collapse justify-content-between" id="main-menu-collapse">
             <a href="index.html" class="navbar-brand d-none d-md-block">
-                <img data-src="img/logo.webp" alt="" class="navbar-brand-img lazy">
+                <img data-src="img/logo.webp" alt="" class="navbar-brand-img logo-black lazy">
+                <img data-src="img/logo-white.png" alt=""
+                    class="navbar-brand-img title lazy logo-white">
             </a>
 
             <ul class="navbar-nav menu-nav">

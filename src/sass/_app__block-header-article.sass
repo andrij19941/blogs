@@ -1,0 +1,27 @@
+
+.header-article
+    color: #fff
+    background-image: url('../img/header-img.webp')
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    min-height: 500px
+    padding-top: 165px
+    text-align: center
+    & &__category-holder
+    & &__category-link
+        --bs-btn-color: var(--color-link-on-white)
+        --bs-btn-hover-color: var(--color-main)
+        &::after
+            content: ','
+        &:last-child
+            &::after
+                content: ''
+    & &__title
+        font-size: 30px
+        font-weight: 700
+        line-height: 1.6
+        margin-top: 10px
+    & &__author-link
+        --bs-btn-color: var(--color-link-on-white)
+        --bs-btn-hover-color: var(--color-main)

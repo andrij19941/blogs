@@ -1,4 +1,12 @@
 .main-menu
+    position: absolute
+    top: 0
+    left: 0
+    z-index: 9999
+    width: 100%
+    .navbar-brand
+        .logo-white
+            display: none
     .title
         color: var(--color-link)
         font-size: 18px
@@ -24,7 +32,7 @@
         color: var(--color-white)
         border-radius: 20px
     .btn-nav__sing
-        color: var(--base-font)
+        color: var(--bs-navbar-color)
         font-size: 13px
     span
         color: var(--color-main)
@@ -38,3 +46,15 @@
         color: var(--color-main)
     .btn-nav__sing:hover
         color: var(--color-main)
+
+.main-menu.nav-white
+    .navbar-brand
+        .logo-black
+            display: none
+        .logo-white
+            display: block
+    .btn
+        --bs-navbar-color: var(--color-white)
+    .nav-link
+        --bs-nav-link-color: var(--color-white)
+        --bs-nav-link-hover-color: var(--color-white)

@@ -155,7 +155,7 @@ gulp.task('libs', function () {
 gulp.task('webserver', function () {
 	browserSync.init({
 		server: {
-			baseDir: './dist',
+			baseDir: './dist/',
 		},
 	});
 });
