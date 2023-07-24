@@ -123,7 +123,7 @@ li {
   position: relative; }
 
 .typography {
-  color: #333;
+  color: #6C757D;
   overflow: auto; }
   .typography h1, .typography h2, .typography h3, .typography h4, .typography p {
     max-width: 815px;
@@ -136,6 +136,11 @@ li {
     font-size: 16px; }
   .typography p {
     padding: 0.625rem 0 0.75rem 0; }
+  .typography img {
+    margin-bottom: 70px;
+    margin-top: 70px; }
+  .typography h2 {
+    color: #000; }
 
 .slider {
   margin: 22px 0; }
@@ -330,4 +335,5 @@ li {
   max-width: 815px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 70px; }
+  margin-top: 70px;
+  gap: 20px; }
