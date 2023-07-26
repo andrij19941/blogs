@@ -367,3 +367,9 @@ li {
   display: flex;
   justify-content: flex-start;
   gap: 15px; }
+
+.card-article {
+  margin-bottom: 50px; }
+
+.footer__article {
+  margin-bottom: 100px; }
