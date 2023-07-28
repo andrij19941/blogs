@@ -129,10 +129,11 @@ li {
     max-width: 815px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    line-height: 2.0; }
   .typography,
   .typography p {
-    line-height: 1.6;
+    line-height: 2.0;
     font-size: 16px; }
   .typography p {
     padding: 0.625rem 0 0.75rem 0; }
@@ -330,6 +331,9 @@ li {
 .page-article {
   padding-top: 0; }
 
+.article-content .article-content__meta-item:hover {
+  color: var(--color-main); }
+
 .article-content .article-content__bottom-buttons,
 .article-content .article-content__meta {
   max-width: 815px;
@@ -370,6 +374,3 @@ li {
 
 .card-article {
   margin-bottom: 50px; }
-
-.footer__article {
-  margin-bottom: 100px; }
